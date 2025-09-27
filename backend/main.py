@@ -1,3 +1,13 @@
+
+
+
+import os
+import logging
+from gemini import GeminiClient
+from dotenv import load_dotenv
+
+
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -11,3 +21,5 @@ if not GEMINI_API_KEY:
 
 client = GeminiClient(api_key=GEMINI_API_KEY)
 logger.info("Gemini client initialized successfully")
+
+class 
