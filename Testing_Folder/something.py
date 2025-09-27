@@ -2,7 +2,8 @@ hi = "Hello, World!"
 
 print(hi)
 
-def write():
-    pass
+stash = "Stash this line"
+print(stash)
 
 
+Change = "idk"
