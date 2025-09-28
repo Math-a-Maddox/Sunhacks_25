@@ -1,0 +1,21 @@
+[project]
+name = "intro-to-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-google-genai>=2.1.12",
+    "langchain-openai",
+    "langserve[all]",
+    "python-dotenv",
+    "uvicorn[all,standard]>=0.37.0",
+]
+
+[dependency-groups]
+dev = [
+    "langchain-cli>=0.0.37",
+    "ruff>=0.13.2",
+]
